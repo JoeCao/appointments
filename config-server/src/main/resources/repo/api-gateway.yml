@@ -12,7 +12,7 @@ server:
 zuul:
   routes:
     doctor-webservice: /api/doctors/**
-    patient-webservice: /api/patients/**
+    patient-webservice: /api/patient-api/**
     appointment-webservice: /api/appointments/**
     web-portal: /**
 
